@@ -1,0 +1,36 @@
+/*Definindo o estilo geral da página*/
+body{
+    margin: 20px 50px;
+    background-color:#eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Estilo cabeçalho da página*/
+.cabecalho{
+    text-align: center;   /*Alinha ao centro*/
+    border-bottom: 1px solid black;   /*Borda abaixo do cabeçalho*/
+    background-color: white;
+}
+
+/*Estilo do container Geral */
+.container{
+    margin: 10px;     /*margem Externa */
+    display: flex;    /*Estilo do elemento (CSS3)*/
+    flex-wrap: nowrap;  /* Estilo do flex (CSS3)*/
+    justify-content: center;  /*Alinhas os itens ao centro*/
+}
+
+.container-item{
+    background-color: white;  /*Cor de Fundo*/
+    margin: 10px;   /*Margem Externa */
+    flex-basis: 40%;   /*Ocupa 40% horizontalmente, para ter o                          espaço da margem*/
+    padding: 5px;       /*Margem interno*/
+    box-shadow: 0 40px 10px 0 rgba(0, 0, 0, 0.2) 0 4px 20px 0 rgba(0, 0, 0, 0.19);      /*Sobreamento*/
+
+}
+
+.container-item-titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
